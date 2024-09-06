@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 20px 0 20px 0;
+  box-sizing: border-box;
+}
+
+.logo {
+width:61.09px;
+height: 19px;
+}
+
+.list-navbar {
+list-style-type: none;
+display: flex;
+margin-top: 0px;
+}
+
+.list-navbar li:not(:last-child) {
+  margin-inline: 50px;
+}
+
+.list-navbar li a {
+padding-top: 18px;
+}
+
+.list-navbar li a:hover {
+  color: var(--main-color);
+  border-top: 2px solid var(--main-color);
+}
+
+.list-navbar li a:focus {
+  color: var(--main-color);
+  border-top: 2px solid var(--main-color);
+}
