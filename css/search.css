@@ -9,7 +9,7 @@
   height: 49px;
   background-color: var(--filter-bg-color);
   border-radius: 15px;
-  width: 377px;
+  /* width: 377px; */
 }
 
 .location-placeholder {
@@ -52,4 +52,9 @@
     color: white;
     font-weight: 700;
     text-align: center;
+  }
+
+  .search-button:hover {
+    background-color: #005792;
+    cursor: pointer;
   }
