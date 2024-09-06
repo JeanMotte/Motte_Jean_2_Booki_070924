@@ -1,5 +1,6 @@
 @import url('navbar.css');
 @import url('search.css');
+@import url('filters.css');
 
 /****** General ***********/
 * {
@@ -27,6 +28,14 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 30px 0 0 0;
 }
 
 a {

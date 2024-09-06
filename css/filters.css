@@ -1,0 +1,51 @@
+.filters {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filters-p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 4px;
+}
+
+
+.filter-box {
+    display: flex;
+    border-radius: 25px;
+    border: #d9d9d9 2px solid;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.filter-box:hover {
+    background-color: var(--filter-bg-color);
+    cursor: pointer;
+}
+
+.filter-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.info-p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+}
+
+.circle-info {
+  margin-right: 10px;
+}
