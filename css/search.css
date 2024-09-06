@@ -43,6 +43,10 @@
     color: black !important;
   }
 
+  .map-dot:hover {
+    cursor: pointer;
+  }
+
   .search-button {
     border: 0cap;
     width: 132px;
