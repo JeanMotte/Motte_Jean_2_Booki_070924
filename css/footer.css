@@ -8,6 +8,7 @@
 
 ul {
   list-style-type: none;
+  padding-left: 20px;
 }
 
 .li-title {
@@ -18,4 +19,8 @@ ul {
 .footer-el {
   line-height: 2.2rem;
   width: 446.67px;
+}
+
+.footer-el-li:hover {
+  color: var(--main-color);
 }
