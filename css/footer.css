@@ -1,0 +1,21 @@
+.footer {
+  max-width: 1340px;
+  max-height: 163px;
+  height: 163px;
+  display: flex;
+  background-color: var(--filter-bg-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.li-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-el {
+  line-height: 2.2rem;
+  width: 446.67px;
+}
