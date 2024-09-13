@@ -152,7 +152,6 @@ a {
   justify-content: space-evenly; /* Distributes cards evenly in the container */
   max-width: 100%;
   gap: 30px;
-  /* width: 297.5px; */
 }
 
 .activites-card {
@@ -197,6 +196,19 @@ a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-card {
+      width: 193.5px;
+      height: 270px;
+    }
+
+    .activites-card img {
+      height: 200px;
+    }
+
+    .activites-cards {
+      gap: 20px;
     }
 }
 
