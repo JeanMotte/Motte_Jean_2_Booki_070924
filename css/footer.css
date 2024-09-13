@@ -4,6 +4,7 @@
   height: 163px;
   display: flex;
   background-color: var(--filter-bg-color);
+  margin-top: 30px;
 }
 
 ul {

@@ -37,10 +37,10 @@
 
 .list-navbar li a:hover {
   color: var(--main-color);
-  border-top: 2px solid var(--main-color);
+  border-top: 3px solid var(--main-color);
 }
 
 .list-navbar li a:focus {
   color: var(--main-color);
-  border-top: 2px solid var(--main-color);
+  border-top: 3px solid var(--main-color);
 }
