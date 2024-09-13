@@ -238,6 +238,10 @@ a {
     box-sizing: border-box;
   }
 
+  .footer {
+    padding-bottom: 20px;
+  }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -279,20 +283,24 @@ a {
   margin-bottom: 0;
 }
 
-.main-container > :last-child {
-  padding:0;
-  padding-bottom: 30px;
+.main-container {
+  width: 100%;
+  max-width: 768px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .footer {
   max-height: 461px;
   height: 461px;
   width: 100%;
+  max-width: 768px;
   display: flex;
   flex-wrap: wrap;
   background-color: var(--filter-bg-color);
   margin-top: 30px;
   gap:15px;
+  padding-bottom: 20px;
 }
 
 .footer-el {
