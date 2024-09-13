@@ -35,12 +35,7 @@
   padding-top: 18px;
 }
 
-.list-navbar li a:hover {
-  color: var(--main-color);
-  border-top: 3px solid var(--main-color);
-}
-
-.list-navbar li a:focus {
+.list-navbar li a:hover, .list-navbar li a:focus, .list-navbar li a:active {
   color: var(--main-color);
   border-top: 3px solid var(--main-color);
 }
