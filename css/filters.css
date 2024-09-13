@@ -1,6 +1,7 @@
 .filters {
   display: flex;
-  margin: 20px 0;
+  flex-wrap: wrap;
+  row-gap: 20px;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -17,8 +18,12 @@
     display: flex;
     border-radius: 25px;
     border: #d9d9d9 2px solid;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     padding: 10px;
+}
+
+.filter-name {
+  padding-right: 10px;
 }
 
 .filter-box:hover {
@@ -52,4 +57,12 @@
 
 .circle-info {
   margin-right: 10px;
+}
+
+.filter-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+  column-gap: 10px;
 }
