@@ -78,7 +78,7 @@
 
   @media (max-width: 767.98px) {
     .elements {
-      /* width: 100%; */
+      width: 100%;
     }
 
     .search-form {
