@@ -11,8 +11,7 @@
 }
 
 html {
-  /* scroll-padding-top: 100px; */
-  scroll-behavior: smooth; /* Adjust to the height of your navbar */
+  scroll-behavior: smooth;
 }
 
 :root {
