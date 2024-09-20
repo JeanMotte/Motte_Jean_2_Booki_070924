@@ -257,6 +257,11 @@ a {
   html {
     scroll-padding-top: 115px;
   }
+
+  body {
+    min-width: 320px;
+  }
+
 .main-container {
   width: 100%;
   max-width: 768px;
