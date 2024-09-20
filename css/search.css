@@ -65,7 +65,7 @@
     font-size: 18px;
     border-radius: 0 15px 15px 0;
     background-color: var(--main-color);
-    outline: var(--main-color) 2px solid;
+    outline: var(--main-color) 1px solid;
     color: white;
     font-weight: 700;
     text-align: center;
