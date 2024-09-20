@@ -22,6 +22,10 @@ html {
     --filter-bg-color: #DEEBFF;
 }
 
+.hebergements-cards a:hover, .activites-cards .activites-card:hover, .populaires-cards a:hover {
+  opacity: 0.7;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -262,6 +266,7 @@ a {
     min-width: 320px;
   }
 
+
 .main-container {
   width: 100%;
   max-width: 768px;
@@ -324,7 +329,6 @@ a {
 
 .populaires-cards a {
   width: 100%;
-  min-width: 335px;
 }
 
 .activites-cards {

@@ -24,6 +24,6 @@ ul {
   width: 446.67px;
 }
 
-.footer-el-li:hover {
+.footer-el-li a:hover {
   color: var(--main-color);
 }
