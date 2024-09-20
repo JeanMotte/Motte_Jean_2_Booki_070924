@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  /* scroll-padding-top: 100px; */
 }
 
 :root {
@@ -223,7 +224,8 @@ a {
   }
 
   .p-first {
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
   }
 
   .main-container {
@@ -235,6 +237,10 @@ a {
 
   .footer {
     padding-bottom: 20px;
+  }
+
+  .filter-name {
+    flex-basis: 100%;
   }
 
 }
@@ -253,7 +259,7 @@ a {
 .second-main-container {
   width: 100%;
   max-width: 768px;
-  padding: 0 20px;
+  padding: 0 0;
   box-sizing: border-box;
 }
 
@@ -272,5 +278,16 @@ a {
 
 .footer-el {
   line-height: 2.2rem;
+}
+
+.hebergements-and-populaires section {
+  background-color: var(--main-bg-color);
+  border-radius: 0px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.presentation-and-filters {
+  padding: 0 20px;
 }
 }
