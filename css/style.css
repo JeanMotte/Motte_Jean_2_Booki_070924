@@ -6,13 +6,14 @@
 @import url('footer.css');
 
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-  /* scroll-padding-top: 100px; */
+  scroll-padding-top: 60px;
 }
 
 :root {
@@ -144,9 +145,7 @@ a {
 
 .activites-cards {
   display: flex;
-  flex-wrap: wrap; /* Ensures cards wrap to the next row if they exceed the container width */
-  justify-content: space-evenly; /* Distributes cards evenly in the container */
-  max-width: 100%;
+  justify-content:space-between;
   gap: 30px;
 }
 
@@ -198,7 +197,7 @@ a {
     }
 
     .activites-card {
-      width: 193.5px;
+      width: 23%;
       height: 270px;
     }
 
@@ -207,7 +206,7 @@ a {
     }
 
     .activites-cards {
-      gap: 20px;
+      gap: 0px;
     }
 
     .filter-box {
@@ -255,7 +254,9 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-
+  html {
+    scroll-padding-top: 115px;
+  }
 .main-container {
   width: 100%;
   max-width: 768px;
@@ -320,4 +321,22 @@ a {
   width: 100%;
   min-width: 335px;
 }
+
+.activites-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.activites-cards .activites-card {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+  width: 100%;
+}
+
 }
