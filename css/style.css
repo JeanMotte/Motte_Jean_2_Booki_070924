@@ -281,13 +281,25 @@ a {
 }
 
 .hebergements-and-populaires section {
-  background-color: var(--main-bg-color);
   border-radius: 0px;
   padding: 30px;
   box-sizing: border-box;
 }
 
+.hebergements-and-populaires section:not(:last-child) {
+  background-color: white;
+}
+
+.populaires {
+  order: 1;
+}
+
+.hebergements {
+  order: 2;
+}
+
 .presentation-and-filters {
   padding: 0 20px;
 }
+
 }
