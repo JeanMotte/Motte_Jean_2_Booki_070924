@@ -335,6 +335,7 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  max-width: 100%;
 }
 
 .populaires-cards a {
@@ -358,4 +359,7 @@ a {
   width: 100%;
 }
 
+.populaires-cards a .card {
+  box-sizing: border-box;
+}
 }
