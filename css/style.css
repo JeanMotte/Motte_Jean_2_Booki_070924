@@ -188,16 +188,26 @@ a {
     }
 
     .populaires-cards a {
-      min-width: 274.67px;
+      /* min-width: 274.67px; */
       width: 30%;
     }
 
+    .populaires-cards a .card {
+      height: 146px;
+      min-width: 100%;
+    }
+
+    .populaires-cards img {
+      width: 33%;
+      height: 100%;
+    }
+
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .activites-card {
