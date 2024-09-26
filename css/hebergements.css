@@ -70,11 +70,12 @@
 @media (max-width: 1024px) {
   .hebergements-cards {
     justify-content: space-evenly;
+    max-width: 100%;
   }
 
   .hebergements-cards a {
-    min-width: 268px;
     height: 207.25px;
+    width: 30%;
   }
 }
 
