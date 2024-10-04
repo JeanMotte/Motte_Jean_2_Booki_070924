@@ -25,7 +25,7 @@
   border-radius: 20px;
   padding: 5px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-  box-sizing: border-box;
+
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -95,11 +95,6 @@
 
 
 @media (max-width: 767.98px) {
-  .hebergements-cards a .card-hbr {
-    box-sizing: border-box;
-  }
-
-
   .hebergements-cards a {
     flex-basis: 100%;
   }
@@ -114,6 +109,6 @@
     /* height: 124px; */
     width: 100%;
     border-radius: 15px 15px 0 0;
-}
+  }
 
 }
