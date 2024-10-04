@@ -9,6 +9,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -320,6 +321,7 @@ a {
 
 .populaires {
   order: 1;
+  margin-top: 10px;
 }
 
 .hebergements {

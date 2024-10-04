@@ -52,7 +52,7 @@
     border-radius: 15px 0 0 15px;
     width: 50px;
     color: black !important;
-    background-color: var(--filter-bg-color);
+    background-color: #F2F2F2;
   }
 
   .map-dot:hover {
